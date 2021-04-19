@@ -2,6 +2,7 @@
   width: 335px;
   margin: auto;
   border: solid 1px rgb(211, 221, 221);
+  background-color: darksalmon;
 }
 
 .title {
@@ -21,6 +22,14 @@
 .item {
   width: 70px;
   border: solid 1px teal;
+}
+
+.item:nth-child(2n + 1) {
+  background-color: aqua;
+}
+
+.item:nth-child(2n + 2) {
+  background-color: darkgreen;
 }
 
 .label {
